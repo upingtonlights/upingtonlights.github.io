@@ -22,7 +22,7 @@
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="#location" class="icon solid fa-location-arrow"><span>Locations</span></a>
+						<a href="#locations" class="icon solid fa-location-arrow"><span>Locations</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -125,14 +125,11 @@
 
 							<!-- CSRA Locations -->
 							<article id="locations" class="panel">
-								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
-								</a>
+								<div id="map"></div>
+								<script type="text/javascript" src="assets/js/main.js"></script>
+								<script async defer
+ 								   src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+								</script>
 							</article>
 
 					</div>
