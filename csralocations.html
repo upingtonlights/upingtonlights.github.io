@@ -790,7 +790,7 @@
     <script>
       const CONFIGURATION = {
         "locations": [
-          {"title":"805 Upington Ln","address1":"805 Upington Ln","address2":"Evans, GA 30809, USA","coords":{"lat":33.58991283566734,"lng":-82.2042135067459},"placeId":"ChIJw6D3_oUq-IgRnQjoWPn8JFA"},
+          {"title":"Upington Lights","address1":"805 Upington Ln","address2":"Evans, GA 30809, USA","coords":{"lat":33.58991283566734,"lng":-82.2042135067459},"placeId":"ChIJw6D3_oUq-IgRnQjoWPn8JFA"},
           {"title":"1417 Dooley Ln","address1":"1417 Dooley Ln","address2":"Grovetown, GA 30813, USA","coords":{"lat":33.49716135592272,"lng":-82.24252516441803},"placeId":"ChIJu9wH-0V-94gR3c4a8sB8p_8"}
         ],
         "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17},
@@ -847,6 +847,10 @@
       <div class="address">
         {{location.address1}}<br>
         {{location.address2}}
+      </div>
+      <div class="address">
+        {{location.address3}}<br>
+        {{location.address4}}
       </div>
       <div class="atmosphere">
         {{#if place.rating}}
